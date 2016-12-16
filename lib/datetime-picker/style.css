@@ -1,0 +1,39 @@
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* $button-default-color: #656b79; */
+/* $button-default-background-color: #f6f8fa; */
+/* $button-default-plain-color: #5a5a5a; */
+/* $button-primary-color: #fff; */
+/* $button-primary-background-color: #26a2ff; */
+/* Tab Item Component */
+/* Tabbar Component */
+/* $tabbar-background-color: #fafafa; */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* z-index */
+.mint-datetime {
+    width: 100%;
+}
+.mint-datetime .picker-slot-wrapper, .mint-datetime .picker-item {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.mint-datetime .picker-toolbar {
+    border-bottom: solid 1px #eaeaea;
+}
+.mint-datetime-action {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #f34956;
+}
+.mint-datetime-cancel {
+    float: left;
+}
+.mint-datetime-confirm {
+    float: right;
+}
