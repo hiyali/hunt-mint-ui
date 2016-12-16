@@ -127,8 +127,8 @@ export default {
 
         &:checked {
           + .mint-checkbox-core {
-            background-color: $color-blue;
-            border-color: $color-blue;
+            background-color: $color-red;
+            border-color: $color-red;
 
             &::after {
               border-color: $color-white;

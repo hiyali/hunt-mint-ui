@@ -36,18 +36,18 @@
       overflow: hidden;
       backface-visibility: hidden;
       transition: .2s;
-      
+
       @descendent header {
         padding: 15px 0 0;
       }
-      
+
       @descendent content {
         padding: 10px 20px 15px;
         border-bottom: 1px solid #ddd;
         min-height: 36px;
         position: relative;
       }
-      
+
       @descendent input {
         padding-top: 15px;
         & input {
@@ -65,14 +65,14 @@
           }
         }
       }
-    
+
       @descendent errormsg {
         color: red;
         font-size: 12px;
         min-height: 18px;
         margin-top: 2px;
       }
-      
+
       @descendent title {
         text-align: center;
         padding-left: 0;
@@ -81,14 +81,14 @@
         font-weight: bold;
         color: #333;
       }
-      
+
       @descendent message {
         color: #999;
         margin: 0;
         text-align: center;
         line-height: 36px;
       }
-      
+
       @descendent btns {
         display: -webkit-box;
         display: -webkit-flex;
@@ -97,7 +97,7 @@
         height: 40px;
         line-height: 40px;
       }
-    
+
       @descendent btn {
         line-height: 35px;
         display: block;
@@ -105,16 +105,16 @@
         flex: 1;
         margin: 0;
         border: 0;
-  
+
         &:focus {
           outline: none;
         }
-  
+
         &:active {
           background-color: #fff;
         }
       }
-    
+
       @descendent cancel {
         width: 50%;
         border-right: 1px solid #ddd;
@@ -122,12 +122,12 @@
           color: #000;
         }
       }
-  
+
       @descendent confirm {
-        color: #26a2ff;
+        color: #f34956;
         width: 50%;
         &:active {
-         color: #26a2ff;
+         color: #f34956;
         }
       }
     }

@@ -44,7 +44,7 @@ export default {
   @component-namespace mint {
     @component header {
       align-items: center;
-      background-color: $color-blue;
+      background-color: $color-red;
       box-sizing: border-box;
       color: $color-white;
       display: flex;
@@ -89,8 +89,9 @@ export default {
       @descendent title {
         @utils-ellipsis;
         font-size: inherit;
-        font-weight: normal;
+        font-weight: 500;
         flex: 1;
+        font-size: 17px;
       }
 
       @when fixed {

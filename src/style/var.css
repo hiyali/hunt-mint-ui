@@ -1,4 +1,5 @@
 $color-blue: #26a2ff;
+$color-red: #f34956;
 $color-white: #fff;
 $color-grey: #d9d9d9;
 $border-color: #c8c8cd;
@@ -10,15 +11,20 @@ $warning-color: #ffc107;
 $cell-value-color: #888;
 
 /* Header Component */
-$header-height: 40px;
+$header-height: 44px;
 
 /* Button Component */
-$button-default-color: #656b79;
-$button-default-background-color: #f6f8fa;
+$button-default-color: #fff;
+/* $button-default-color: #656b79; */
+$button-default-background-color: #ff4958;
+/* $button-default-background-color: #f6f8fa; */
 $button-default-plain-color: #5a5a5a;
+/* $button-default-plain-color: #5a5a5a; */
 $button-default-box-shadow: 0 0 1px #b8bbbf;
-$button-primary-color: #fff;
-$button-primary-background-color: #26a2ff;
+$button-primary-color: #656b79;
+/* $button-primary-color: #fff; */
+$button-primary-background-color: #f6f8fa;
+/* $button-primary-background-color: #26a2ff; */
 $button-danger-color: #fff;
 $button-danger-background-color: #ef4f4f;
 
@@ -26,7 +32,9 @@ $button-danger-background-color: #ef4f4f;
 $tab-item-font-size: 12px;
 
 /* Tabbar Component */
-$tabbar-background-color: #fafafa;
+/* $tabbar-background-color: #fafafa; */
+$tabbar-background-color: #26a2ff;
+
 $tabbar-tab-item-selected-background-color: #eaeaea;
 $tabbar-tab-item-selected-color: $color-blue;
 
