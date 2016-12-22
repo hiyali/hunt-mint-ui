@@ -111,8 +111,8 @@ export default {
 
         &:checked {
           + .mint-radio-core {
-            background-color: $color-blue;
-            border-color: $color-blue;
+            background-color: $color-red;
+            border-color: $color-red;
 
             &::after {
               background-color: $color-white;

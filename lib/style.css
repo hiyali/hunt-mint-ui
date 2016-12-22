@@ -806,7 +806,7 @@ display: inline-block;
 }
 .mint-tab-item-label {
     color: inherit;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1
 }
 
@@ -861,8 +861,8 @@ display: inline-block;
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #26a2ff;
-    color: #26a2ff;
+    border-bottom: 3px solid #f34956;
+    color: #f34956;
     margin-bottom: -3px;
 }
 .mint-navbar.is-fixed {
@@ -1134,8 +1134,8 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #f34956;
+    border-color: #f34956;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;
