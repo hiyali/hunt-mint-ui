@@ -1,17 +1,23 @@
 $color-blue: #26a2ff;
 $color-red: #f34956;
 $color-white: #fff;
-$color-grey: #d9d9d9;
-$border-color: #c8c8cd;
+$color-grey: #d6d7dc;
+$border-color: #e1e1e1;
 $success-color: #4caf50;
 $error-color: #f44336;
 $warning-color: #ffc107;
+
+/* custom */
+$font-gray-color: #323232;
+$border-last-color: #d6d7dc;
+$button-font-color: #999;
+$navbar-item-color: #4d4d4d;
 
 /* Cell Component */
 $cell-value-color: #888;
 
 /* Header Component */
-$header-height: 44px;
+$header-height: 47px;
 
 /* Button Component */
 $button-default-color: #fff;

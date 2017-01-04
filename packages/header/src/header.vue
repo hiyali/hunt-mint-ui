@@ -44,9 +44,9 @@ export default {
   @component-namespace mint {
     @component header {
       align-items: center;
-      background-color: $color-red;
+      background-color: $color-white;
       box-sizing: border-box;
-      color: $color-white;
+      color: $font-gray-color;
       display: flex;
       font-size: 14px;
       height: $header-height;
@@ -55,6 +55,7 @@ export default {
       position: relative;
       text-align: center;
       white-space: nowrap;
+      border-bottom: 1px solid $border-last-color;
 
       .mint-button {
         background-color: transparent;

@@ -45,6 +45,8 @@ export default {
       background-color: $color-white;
       display: flex;
       text-align: center;
+      border-bottom: 1px solid $border-last-color;
+      color: $navbar-item-color;
 
       @when fixed {
         position: fixed 0 0 * 0;
@@ -60,9 +62,9 @@ export default {
         }
 
         &.is-selected {
-          border-bottom: 3px solid $color-red;
+          border-bottom: 1px solid $color-red;
           color: $color-red;
-          margin-bottom: -3px;
+          margin-bottom: -1px;
         }
       }
     }
