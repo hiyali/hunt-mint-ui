@@ -1,3 +1,4 @@
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -17,19 +18,20 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #f34956;
+    background-color: #fff;
     box-sizing: border-box;
-    color: #fff;
+    color: #323232;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     font-size: 14px;
-    height: 44px;
+    height: 47px;
     line-height: 1;
     padding: 0 10px;
     position: relative;
     text-align: center;
     white-space: nowrap;
+    border-bottom: 1px solid #d6d7dc;
 }
 .mint-header .mint-button {
     background-color: transparent;

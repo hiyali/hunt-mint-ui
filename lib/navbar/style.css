@@ -1,3 +1,4 @@
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -19,6 +20,8 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+    border-bottom: 1px solid #d6d7dc;
+    color: #4d4d4d;
 }
 .mint-navbar .mint-tab-item {
     padding: 17px 0;
@@ -28,9 +31,9 @@
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #f34956;
+    border-bottom: 1px solid #f34956;
     color: #f34956;
-    margin-bottom: -3px;
+    margin-bottom: -1px;
 }
 .mint-navbar.is-fixed {
     top: 0;

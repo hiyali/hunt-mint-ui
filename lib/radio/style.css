@@ -1,3 +1,4 @@
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -47,7 +48,7 @@
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d9d9d9;
+    background-color: #d6d7dc;
     border-color: #ccc;
 }
 .mint-radio-core {

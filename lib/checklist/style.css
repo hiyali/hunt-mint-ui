@@ -1,3 +1,4 @@
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -17,8 +18,8 @@
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    background-color: #d6d7dc;
+    border-color: #d6d7dc;
 }
 .mint-checklist-label {
     display: block;
@@ -51,7 +52,7 @@
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d9d9d9;
+    background-color: #d6d7dc;
     border-color: #ccc;
 }
 .mint-checkbox-core {

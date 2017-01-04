@@ -1,3 +1,4 @@
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -17,19 +18,20 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #f34956;
+    background-color: #fff;
     box-sizing: border-box;
-    color: #fff;
+    color: #323232;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     font-size: 14px;
-    height: 44px;
+    height: 47px;
     line-height: 1;
     padding: 0 10px;
     position: relative;
     text-align: center;
     white-space: nowrap;
+    border-bottom: 1px solid #d6d7dc;
 }
 .mint-header .mint-button {
     background-color: transparent;
@@ -75,6 +77,7 @@
             flex: 1;
     font-size: 17px;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -169,6 +172,7 @@
     padding: 0 12px;
     height: 33px
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -201,15 +205,15 @@
     background-origin:border-box;
 }
 .mint-cell:last-child {
-    background-image:-webkit-linear-gradient(bottom, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(0deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(bottom, #d6d7dc, #d6d7dc 50%, transparent 50%);
+    background-image:linear-gradient(0deg, #d6d7dc, #d6d7dc 50%, transparent 50%);
     background-size:100% 1px;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 .mint-cell-wrapper {
-    background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(top, #d6d7dc, #d6d7dc 50%, transparent 50%);
+    background-image:linear-gradient(180deg, #d6d7dc, #d6d7dc 50%, transparent 50%);
     background-size: 120% 1px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -284,7 +288,7 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-allow-right::after {
-    border: solid 2px #c8c8cd;
+    border: solid 2px #e1e1e1;
     border-bottom-width: 0;
     border-left-width: 0;
     content: " ";
@@ -296,6 +300,7 @@
     -webkit-transform: translateY(-50%) rotate(45deg);
             transform: translateY(-50%) rotate(45deg);
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -326,6 +331,7 @@
     padding: 0 10px;
     line-height: 48px;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -416,6 +422,7 @@
     right: 0;
     position: absolute;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -463,6 +470,7 @@
 .mint-badge.is-success {
     background-color: #4caf50
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -499,10 +507,10 @@
     position: relative;
     width: 52px;
     height: 32px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #d6d7dc;
     border-radius: 16px;
     box-sizing: border-box;
-    background: #d9d9d9
+    background: #d6d7dc
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " ";
@@ -768,6 +776,7 @@ display: inline-block;
         opacity: 1
     }
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -831,6 +840,7 @@ display: inline-block;
     display: -ms-flexbox;
     display: flex;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -852,6 +862,8 @@ display: inline-block;
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+    border-bottom: 1px solid #d6d7dc;
+    color: #4d4d4d;
 }
 .mint-navbar .mint-tab-item {
     padding: 17px 0;
@@ -861,9 +873,9 @@ display: inline-block;
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #f34956;
+    border-bottom: 1px solid #f34956;
     color: #f34956;
-    margin-bottom: -3px;
+    margin-bottom: -1px;
 }
 .mint-navbar.is-fixed {
     top: 0;
@@ -872,6 +884,7 @@ display: inline-block;
     position: fixed;
     z-index: 1;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -888,8 +901,8 @@ display: inline-block;
 /* Radio Component */
 /* z-index */
 .mint-tabbar {
-    background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(top, #d6d7dc, #d6d7dc 50%, transparent 50%);
+    background-image: linear-gradient(180deg, #d6d7dc, #d6d7dc 50%, transparent 50%);
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -915,6 +928,7 @@ display: inline-block;
     position: fixed;
     z-index: 1;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -940,7 +954,7 @@ display: inline-block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #d9d9d9;
+    background-color: #d6d7dc;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -965,7 +979,7 @@ display: inline-block;
 }
 .mint-searchbar-inner .mintui-search {
     font-size: 12px;
-    color: #d9d9d9;
+    color: #d6d7dc;
 }
 .mint-searchbar-core {
     -webkit-appearance: none;
@@ -1011,6 +1025,7 @@ display: inline-block;
     left: 0;
     position: absolute;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -1030,8 +1045,8 @@ display: inline-block;
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    background-color: #d6d7dc;
+    border-color: #d6d7dc;
 }
 .mint-checklist-label {
     display: block;
@@ -1064,7 +1079,7 @@ display: inline-block;
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d9d9d9;
+    background-color: #d6d7dc;
     border-color: #ccc;
 }
 .mint-checkbox-core {
@@ -1094,6 +1109,7 @@ display: inline-block;
     transition: transform .2s;
     transition: transform .2s, -webkit-transform .2s;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
@@ -1143,7 +1159,7 @@ display: inline-block;
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d9d9d9;
+    background-color: #d6d7dc;
     border-color: #ccc;
 }
 .mint-radio-core {
@@ -1585,7 +1601,7 @@ display: inline-block;
 .mt-progress-progress {
     position: absolute;
     display: block;
-    background-color: #26a2ff;
+    background-color: orange;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
@@ -1810,7 +1826,8 @@ to{opacity:0
 }
 }
 .v-modal{position:fixed;left:0;top:0;width:100%;height:100%;opacity:.5;background:#000
-}/* Cell Component */
+}/* custom */
+/* Cell Component */
 /* Header Component */
 /* Button Component */
 /* $button-default-color: #656b79; */
@@ -1849,6 +1866,7 @@ to{opacity:0
 .mint-datetime-confirm {
     float: right;
 }
+/* custom */
 /* Cell Component */
 /* Header Component */
 /* Button Component */
