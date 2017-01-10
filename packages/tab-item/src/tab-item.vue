@@ -40,7 +40,7 @@ export default {
       text-decoration: none;
 
       @descendent icon {
-        size: 24px;
+        size: 1.3rem;
         margin: 0 auto 5px;
 
         &:empty {

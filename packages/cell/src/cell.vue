@@ -97,7 +97,7 @@ export default {
       background-color: $color-white;
       box-sizing: border-box;
       color: inherit;
-      min-height: 48px;
+      min-height: 3rem;
       display: block;
       overflow: hidden;
       position: relative;
@@ -125,7 +125,7 @@ export default {
         align-items: center;
         box-sizing: border-box;
         display: flex;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 1;
         min-height: inherit;
         overflow: hidden;
@@ -153,7 +153,7 @@ export default {
       @descendent label {
         color: #888;
         display: block;
-        font-size: 12px;
+        font-size: 0.8rem;
         margin-top: 6px;
       }
 

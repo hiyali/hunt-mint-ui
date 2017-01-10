@@ -168,7 +168,7 @@ export default {
       }
 
       .mint-cell-title {
-        width: 105px;
+        width: 6.5rem;
         flex: none;
       }
 
@@ -195,10 +195,10 @@ export default {
 
       @descendent state {
         color: inherit;
-        margin-left: 20px;
+        margin-left: 1.2rem;
 
         .mintui {
-          font-size: 20px;
+          font-size: 1.2rem;
         }
 
         @when error {

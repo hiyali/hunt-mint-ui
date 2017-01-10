@@ -17,7 +17,7 @@ $navbar-item-color: #4d4d4d;
 $cell-value-color: #888;
 
 /* Header Component */
-$header-height: 47px;
+$header-height: 3rem;
 
 /* Button Component */
 $button-default-color: #fff;
@@ -35,7 +35,7 @@ $button-danger-color: #fff;
 $button-danger-background-color: #ef4f4f;
 
 /* Tab Item Component */
-$tab-item-font-size: 15px;
+$tab-item-font-size: 0.9rem;
 
 /* Tabbar Component */
 /* $tabbar-background-color: #fafafa; */

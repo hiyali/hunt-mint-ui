@@ -48,7 +48,7 @@ export default {
       box-sizing: border-box;
       color: $font-gray-color;
       display: flex;
-      font-size: 14px;
+      font-size: 0.9rem;
       height: $header-height;
       line-height: 1;
       padding: 0 10px;
@@ -92,7 +92,7 @@ export default {
         font-size: inherit;
         font-weight: 500;
         flex: 1;
-        font-size: 17px;
+        font-size: 1.1rem;
       }
 
       @when fixed {
