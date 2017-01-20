@@ -93,6 +93,7 @@ export default {
         font-weight: 500;
         flex: 1;
         font-size: 1.1rem;
+        padding: 3px 0;
       }
 
       @when fixed {
