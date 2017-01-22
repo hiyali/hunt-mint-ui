@@ -14,6 +14,8 @@
 @component-namespace mint {
   @component indicator {
     transition: opacity .2s linear;
+    position: relative;
+    z-index: 1;
 
     @descendent wrapper {
       position: fixed 50% * * 50%;

@@ -79,7 +79,7 @@
             flex: 1;
     font-size: 17.6px;
     font-size: 1.1rem;
-    padding: 3px 0;
+    padding: 5px 0;
 }
 /* custom */
 /* Cell Component */
@@ -1668,6 +1668,8 @@ display: inline-block;
 .mint-indicator {
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
+  position: relative;
+  z-index: 1;
 }
 .mint-indicator-wrapper {
   top: 50%;
