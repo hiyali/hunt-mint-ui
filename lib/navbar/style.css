@@ -31,9 +31,8 @@
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 1px solid #f34956;
+    border-bottom: 2px solid #f34956;
     color: #f34956;
-    margin-bottom: -1px;
 }
 .mint-navbar.is-fixed {
     top: 0;

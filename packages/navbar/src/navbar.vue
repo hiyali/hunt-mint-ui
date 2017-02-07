@@ -62,9 +62,8 @@ export default {
         }
 
         &.is-selected {
-          border-bottom: 1px solid $color-red;
+          border-bottom: 2px solid $color-red;
           color: $color-red;
-          margin-bottom: -1px;
         }
       }
     }

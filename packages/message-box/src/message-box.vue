@@ -31,7 +31,7 @@
       background-color: #fff;
       width: 85%;
       border-radius: 3px;
-      font-size: 16px;
+      font-size: 1rem;
       -webkit-user-select: none;
       overflow: hidden;
       backface-visibility: hidden;
@@ -77,7 +77,7 @@
         text-align: center;
         padding-left: 0;
         margin-bottom: 0;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
         color: #333;
       }
@@ -101,6 +101,7 @@
       @descendent btn {
         line-height: 35px;
         display: block;
+        font-size: 1rem;
         background-color: #fff;
         flex: 1;
         margin: 0;
