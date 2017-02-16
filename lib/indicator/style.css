@@ -21,8 +21,10 @@
   display: block;
   color: #fff;
   text-align: center;
-  margin-top: 10px;
   font-size: 16px;
+}
+.mint-indicator-middle {
+  height: 10px;
 }
 .mint-indicator-spin {
   display: inline-block;

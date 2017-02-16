@@ -2,6 +2,7 @@
   <div class="page-indicator">
     <h1 class="page-title">Indicator</h1>
     <div class="page-indicator-wrapper">
+      <mt-button @click.native="openToastIndicator" size="large">点击弹出 ToastIndicator</mt-button>
       <mt-button @click.native="openIndicator" size="large">点击弹出 Indicator</mt-button>
       <mt-button @click.native="openIndicatorWithSpinner" size="large">可配置 spinner</mt-button>
       <mt-button @click.native="openIndicatorWithText" size="large">点击弹出带有文字的 Indicator</mt-button>
@@ -30,6 +31,10 @@
 
   export default {
     methods: {
+      openToastIndicator() {
+        Indicator.open({ text: '测试，正在加载...', spinnerType: 'message', duration: 3 * 1000 });
+      },
+
       openIndicator() {
         Indicator.open();
         setTimeout(() => Indicator.close(), 2000);
@@ -42,7 +47,7 @@
 
       openIndicatorWithText() {
         Indicator.open('加载中...');
-        setTimeout(() => Indicator.close(), 2000);
+        setTimeout(() => Indicator.close(), 2 * 1000);
       }
     },
 
