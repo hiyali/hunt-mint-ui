@@ -47,7 +47,7 @@
       @descendent content {
         padding: 10px 20px 15px;
         border-bottom: 1px solid #ddd;
-        min-height: 36px;
+        min-height: 1.5;
         position: relative;
       }
 
@@ -55,7 +55,7 @@
         text-align: center;
       }
       @descendent image {
-         width: 120px;
+         width: 8rem;
       }
 
 
