@@ -5,6 +5,9 @@
         <div class="mint-msgbox-header" v-if="title !== ''">
           <div class="mint-msgbox-title">{{ title }}</div>
         </div>
+        <div class="mint-msgbox-image-box" v-if="image">
+          <img class="mint-msgbox-image" :src="image" />
+        </div>
         <div class="mint-msgbox-content" v-if="message !== ''">
           <div class="mint-msgbox-message" v-html="message"></div>
           <div class="mint-msgbox-input" v-show="showInput">
@@ -47,6 +50,14 @@
         min-height: 36px;
         position: relative;
       }
+
+      @descendent image-box {
+        text-align: center;
+      }
+      @descendent image {
+         width: 120px;
+      }
+
 
       @descendent input {
         padding-top: 15px;
@@ -285,6 +296,7 @@
     data() {
       return {
         title: '',
+        image: null,
         message: '',
         type: '',
         showInput: false,

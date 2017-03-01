@@ -3,6 +3,7 @@ var CANCEL_TEXT = '取消';
 
 var defaults = {
   title: '提示',
+  image: null,
   message: '',
   type: '',
   showInput: false,
@@ -183,6 +184,18 @@ MessageBox.confirm = function(message, title, options) {
     message: message,
     $type: 'confirm',
     showCancelButton: true
+  }, options));
+};
+
+MessageBox.custom = function(message, title, options) {
+  if (typeof title === 'object') {
+    options = title;
+    title = '';
+  }
+  return MessageBox(merge({
+    title: title,
+    message: message,
+    $type: 'confirm'
   }, options));
 };
 

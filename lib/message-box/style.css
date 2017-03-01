@@ -26,6 +26,12 @@
   min-height: 36px;
   position: relative;
 }
+.mint-msgbox-image-box {
+  text-align: center;
+}
+.mint-msgbox-image {
+  width: 120px;
+}
 .mint-msgbox-input {
   padding-top: 15px;
 }
