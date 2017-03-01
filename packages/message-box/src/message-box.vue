@@ -105,14 +105,14 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 40px;
-        line-height: 40px;
+        height: 3rem;
+        line-height: 3rem;
       }
 
       @descendent btn {
         line-height: 35px;
         display: block;
-        font-size: 1rem;
+        font-size: 1.1rem;
         background-color: #fff;
         flex: 1;
         margin: 0;
