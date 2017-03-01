@@ -47,7 +47,7 @@
       @descendent content {
         padding: 10px 20px 15px;
         border-bottom: 1px solid #ddd;
-        min-height: 1.5;
+        min-height: 36px;
         position: relative;
       }
 
@@ -97,7 +97,7 @@
         color: #999;
         margin: 0;
         text-align: center;
-        line-height: 36px;
+        line-height: 1.5;
       }
 
       @descendent btns {
