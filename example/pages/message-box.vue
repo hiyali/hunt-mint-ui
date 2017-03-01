@@ -40,7 +40,7 @@
       },
 
       openCustom() {
-        MessageBox.custom('成功返回了哦', '', {
+        MessageBox.custom('成功<span style="color:red">返回</span>了哦', '', {
           image: require('../../../hunt-tickets-wx-v2/client/assets/logo.jpg')
         });
       },
