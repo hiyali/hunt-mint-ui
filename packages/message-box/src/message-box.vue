@@ -5,6 +5,9 @@
         <div class="mint-msgbox-header" v-if="title !== ''">
           <div class="mint-msgbox-title">{{ title }}</div>
         </div>
+        <div class="mint-msgbox-close-btn" v-if="showCloseButton" @click="doClose">
+          <i class="icon iconfont icon-shanchu11"></i>
+        </div>
         <div class="mint-msgbox-image-box" v-if="image">
           <img class="mint-msgbox-image" :src="image" />
         </div>
@@ -56,6 +59,19 @@
       }
       @descendent image {
          width: 8rem;
+      }
+      @descendent close-btn {
+        right: 5px;
+        top: 5px;
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        .iconfont {
+          font-size: 14px;
+          position: relative;
+          top: -2px;
+          color: #999;
+        }
       }
 
 
@@ -155,6 +171,7 @@
   }
 </style>
 <style src="vue-popup/lib/popup.css"></style>
+<style src="../../../../hunt-tickets-wx-v2/client/assets/iconfont/iconfont.css"></style>
 
 <script type="text/babel">
   let CONFIRM_TEXT = '确定';

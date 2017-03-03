@@ -4,6 +4,7 @@ var CANCEL_TEXT = '取消';
 var defaults = {
   title: '提示',
   image: null,
+  showCloseButton: false,
   message: '',
   type: '',
   showInput: false,

@@ -41,7 +41,10 @@
 
       openCustom() {
         MessageBox.custom('成功<span style="color:red">返回</span>了哦', '', {
-          image: require('../../../hunt-tickets-wx-v2/client/assets/logo.jpg')
+          image: require('../../../hunt-tickets-wx-v2/client/assets/logo.jpg'),
+          showCloseButton: true
+        }).then((action) => {
+          console.log(action);
         });
       },
 
