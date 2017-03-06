@@ -171,7 +171,7 @@
   }
 </style>
 <style src="vue-popup/lib/popup.css"></style>
-<style src="../../../../hunt-tickets-wx-v2/client/assets/iconfont/iconfont.css"></style>
+<!-- <style src="../../../../hunt-tickets-wx-v2/client/assets/iconfont/iconfont.css"></style> -->
 
 <script type="text/babel">
   let CONFIRM_TEXT = '确定';

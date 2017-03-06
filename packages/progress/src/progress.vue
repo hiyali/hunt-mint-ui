@@ -43,9 +43,11 @@
         right: 0;
         background-color: #ebebeb;
         height: 3px;
+        border-radius: 5px;
       }
 
       @descendent progress {
+        border-radius: 5px;
         position: absolute;
         display: block;
         background-color: orange;
