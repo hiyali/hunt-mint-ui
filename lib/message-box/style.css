@@ -25,6 +25,16 @@
   border-bottom: 1px solid #ddd;
   min-height: 36px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .mint-msgbox-image-box {
   text-align: center;
@@ -48,6 +58,7 @@
 }
 .mint-msgbox-input {
   padding-top: 15px;
+  width: 100%;
 }
 .mint-msgbox-input input {
   border: 1px solid #dedede;
@@ -85,6 +96,9 @@
   margin: 0;
   text-align: center;
   line-height: 1.5;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .mint-msgbox-btns {
   display: -webkit-box;

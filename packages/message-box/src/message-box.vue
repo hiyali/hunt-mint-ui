@@ -52,6 +52,9 @@
         border-bottom: 1px solid #ddd;
         min-height: 36px;
         position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
       }
 
       @descendent image-box {
@@ -77,6 +80,7 @@
 
       @descendent input {
         padding-top: 15px;
+        width: 100%;
         & input {
           border: 1px solid #dedede;
           border-radius: 5px;
@@ -114,6 +118,7 @@
         margin: 0;
         text-align: center;
         line-height: 1.5;
+        flex: 1;
       }
 
       @descendent btns {
