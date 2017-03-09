@@ -56,10 +56,10 @@
     box-shadow: 0 0 1px #b8bbbf
 }
 .mint-button--default.is-plain {
-    border: 1px solid #5a5a5a;
+    border: 1px solid #ddd;
     background-color: transparent;
     box-shadow: none;
-    color: #5a5a5a
+    color: #ddd
 }
 .mint-button--primary {
     color: #656b79;
