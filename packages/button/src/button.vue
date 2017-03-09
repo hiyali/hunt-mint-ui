@@ -121,7 +121,7 @@ export default {
           border: 1px solid $button-default-plain-color;
           background-color: transparent;
           box-shadow: none;
-          color: $button-default-plain-color;
+          color: #5a5a5a;
         }
       }
 
