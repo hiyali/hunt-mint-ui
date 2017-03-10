@@ -1,7 +1,12 @@
 <template>
   <div class="picker-slot" :class="classNames" :style="flexStyle">
     <div v-if="!divider" ref="wrapper" class="picker-slot-wrapper" :class="{ dragging: dragging }" :style="{ height: contentHeight + 'px' }">
-      <div class="picker-item" v-for="itemValue in mutatingValues" :class="{ 'picker-selected': itemValue === currentValue }">
+      <div class="picker-item" v-for="(itemValue, index) in mutatingValues"
+        :class="{
+          'previous-1': (index < mutatingValues.length - 1 && mutatingValues[index + 1] === currentValue),
+          'previous-2': (index < mutatingValues.length - 2 && mutatingValues[index + 2] === currentValue),
+          'picker-selected': itemValue === currentValue
+        }">
         {{ typeof itemValue === 'object' && itemValue[valueKey] ? itemValue[valueKey] : itemValue }}
       </div>
     </div>
@@ -70,6 +75,33 @@
   .picker-item.picker-item-far {
     pointer-events: none
   }
+
+  /* for 3d */
+  .picker-item:not(.picker-selected) {
+    color: rgba(0,0,0,0.4);
+    font-size: 0.4rem;
+  }
+  .picker-item.previous-2{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.6rem;
+    transform: rotateX(30deg);
+  }
+  .picker-item.previous-1{
+    color: rgba(0,0,0,0.85);
+    font-size: 0.85rem;
+    transform: rotateX(15deg);
+  }
+  .picker-item.picker-selected + .picker-item{
+    color: rgba(0,0,0,0.85);
+    font-size: 0.85rem;
+    transform: rotateX(15deg);
+  }
+  .picker-item.picker-selected + .picker-item + .picker-item{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.6rem;
+    transform: rotateX(30deg);
+  }
+  /* for 3d */
 
   .picker-item.picker-selected {
     color: #000;
