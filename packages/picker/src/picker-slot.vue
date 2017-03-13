@@ -182,7 +182,14 @@
       },
       flex: {},
       className: {},
-      content: {}
+      content: {},
+      endOfColumn: {
+        type: Boolean,
+        default: false
+      },
+      onClick: {
+        type: Function
+      }
     },
 
     data() {
@@ -241,6 +248,12 @@
     },
 
     methods: {
+      clickHandler() {
+        if (this.endOfColumn && this.onClick) {
+          this.onClick(this.currentValue, this.valueIndex);
+        }
+      },
+
       value2Translate(value) {
         var values = this.mutatingValues;
         var valueIndex = values.indexOf(value);
@@ -311,6 +324,7 @@
       initEvents() {
         var el = this.$refs.wrapper;
         var dragState = {};
+        var flag = 0;
 
         var velocityTranslate, prevTranslate, pickerItems;
 
@@ -326,9 +340,11 @@
               startTranslateTop: translateUtil.getElementTranslate(el).top
             };
             pickerItems = el.querySelectorAll('.picker-item');
+            flag = 0;
           },
 
           drag: (event) => {
+            flag = 1;
             this.dragging = true;
 
             dragState.left = event.pageX;
@@ -349,6 +365,11 @@
           },
 
           end: () => {
+            if (flag === 0) {
+              this.clickHandler();
+              return ;
+            };
+
             this.dragging = false;
 
             var momentumRatio = 7;

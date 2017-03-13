@@ -12,7 +12,7 @@
     <p class="page-picker-desc">在校时间: {{ dateStart }} 至 {{ dateEnd }}</p>
 
     <div class="page-picker-wrapper">
-      <mt-picker :slots="addressSlots" @change="onAddressChange" :visible-item-count="5"></mt-picker>
+      <mt-picker :slots="addressSlots" @change="onAddressChange" :visible-item-count="5" :onClick="onClick"></mt-picker>
     </div>
     <p class="page-picker-desc">地址: {{ addressProvince }} {{ addressCity }}</p>
   </div>
@@ -78,6 +78,10 @@
 
   export default {
     methods: {
+      onClick(a, b) {
+        console.log(a, b);
+      },
+
       onYearChange(picker, values) {
         this.year = values[0];
       },
