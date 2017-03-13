@@ -105,11 +105,11 @@
         margin-bottom: 0;
         font-size: 1rem;
         font-weight: bold;
-        color: #333;
+        color: #323232;
       }
 
       @descendent message {
-        color: #999;
+        color: #808080;
         margin: 0;
         text-align: center;
         line-height: 1.5;
