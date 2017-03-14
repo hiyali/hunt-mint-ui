@@ -7,7 +7,7 @@
         :valueKey="valueKey" :values="slot.values || []" :text-align="slot.textAlign || 'center'"
         :visible-item-count="visibleItemCount" :class-name="slot.className" :flex="slot.flex"
         v-model="values[slot.valueIndex]" :rotate-effect="rotateEffect" :divider="slot.divider"
-        :content="slot.content" :onClick="onClick" :canClickColumn="index === clickableColumn"
+        :content="slot.content" :onClick="onClick" :canClickColumn="(clickableColumn === null) ? true : (index === clickableColumn)"
         >
       </picker-slot>
 
@@ -97,7 +97,7 @@
       },
       clickableColumn: {
         type: Number,
-        default: this.slots ? this.slots.length - 1 : 0
+        default: null
       },
       onClick: {
         type: Function
