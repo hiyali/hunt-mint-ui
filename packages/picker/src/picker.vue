@@ -7,7 +7,7 @@
         :valueKey="valueKey" :values="slot.values || []" :text-align="slot.textAlign || 'center'"
         :visible-item-count="visibleItemCount" :class-name="slot.className" :flex="slot.flex"
         v-model="values[slot.valueIndex]" :rotate-effect="rotateEffect" :divider="slot.divider"
-        :content="slot.content" :onClick="onClick" :endOfColumn="index === slots.length - 1"
+        :content="slot.content" :onClick="onClick" :canClickColumn="index === clickableColumn"
         >
       </picker-slot>
 
@@ -94,6 +94,10 @@
       rotateEffect: {
         type: Boolean,
         default: false
+      },
+      clickableColumn: {
+        type: Number,
+        default: this.slots ? this.slots.length - 1 : 0
       },
       onClick: {
         type: Function

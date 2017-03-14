@@ -12,7 +12,7 @@
     <p class="page-picker-desc">在校时间: {{ dateStart }} 至 {{ dateEnd }}</p>
 
     <div class="page-picker-wrapper">
-      <mt-picker :slots="addressSlots" @change="onAddressChange" :visible-item-count="5" :rotateEffect="true" :onClick="onClick"></mt-picker>
+      <mt-picker :slots="addressSlots" @change="onAddressChange" :visible-item-count="5" :rotateEffect="true" :clickableColumn="2" :onClick="onClick"></mt-picker>
     </div>
     <p class="page-picker-desc">地址: {{ addressProvince }} {{ addressCity }}</p>
   </div>
@@ -142,6 +142,16 @@
             flex: 1,
             values: ['北京'],
             className: 'slot3',
+            textAlign: 'center'
+          }, {
+            divider: true,
+            content: '号',
+            textAlign: 'left',
+            className: 'slot4'
+          }, {
+            flex: 1,
+            values: ['北京'],
+            className: 'slot5',
             textAlign: 'center'
           }
         ],

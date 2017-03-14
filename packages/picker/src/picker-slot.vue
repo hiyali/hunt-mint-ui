@@ -152,7 +152,7 @@
       flex: {},
       className: {},
       content: {},
-      endOfColumn: {
+      canClickColumn: {
         type: Boolean,
         default: false
       },
@@ -218,7 +218,7 @@
 
     methods: {
       clickHandler() {
-        if (this.endOfColumn && this.onClick) {
+        if (this.canClickColumn && this.onClick) {
           this.onClick(this.currentValue, this.valueIndex);
         }
       },
