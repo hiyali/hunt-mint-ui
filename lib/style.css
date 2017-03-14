@@ -1552,42 +1552,6 @@ display: inline-block;
 .picker-item.picker-item-far {
   pointer-events: none
 }
-
-/* for 3d */
-.picker-item:not(.picker-selected) {
-  color: rgba(0,0,0,0.4);
-  font-size: 6.4px;
-  font-size: 0.4rem;
-}
-.picker-item.previous-2{
-  color: rgba(0,0,0,0.6);
-  font-size: 9.6px;
-  font-size: 0.6rem;
-  -webkit-transform: rotateX(30deg);
-          transform: rotateX(30deg);
-}
-.picker-item.previous-1{
-  color: rgba(0,0,0,0.85);
-  font-size: 13.6px;
-  font-size: 0.85rem;
-  -webkit-transform: rotateX(15deg);
-          transform: rotateX(15deg);
-}
-.picker-item.picker-selected + .picker-item{
-  color: rgba(0,0,0,0.85);
-  font-size: 13.6px;
-  font-size: 0.85rem;
-  -webkit-transform: rotateX(15deg);
-          transform: rotateX(15deg);
-}
-.picker-item.picker-selected + .picker-item + .picker-item{
-  color: rgba(0,0,0,0.6);
-  font-size: 9.6px;
-  font-size: 0.6rem;
-  -webkit-transform: rotateX(30deg);
-          transform: rotateX(30deg);
-}
-/* for 3d */
 .picker-item.picker-selected {
   color: #000;
   -webkit-transform: translate3d(0, 0, 0) rotateX(0);
