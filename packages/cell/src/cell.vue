@@ -149,7 +149,8 @@ export default {
       }
 
       @descendent text {
-        vertical-align: middle;
+        vertical-align: 15%;
+        margin-left: 10px;
       }
 
       @descendent label {
@@ -200,6 +201,8 @@ export default {
         position: absolute 50% 20px * *;
         size: 5px;
         transform: translateY(-50%) rotate(45deg);
+        width: 10px;
+        height: 10px;
       }
     }
   }
