@@ -150,7 +150,6 @@ export default {
 
       @descendent text {
         vertical-align: 15%;
-        margin-left: 10px;
       }
 
       @descendent label {
